@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <ol type="I">
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ol>
+        <img src="http://images.pexels.com/photos/1646343/pexels-photo-1646343.jpeg?aouto=tinysrgb&w=1260&h=750&dpr=1"alt="Beautiful landscape" widht="300">
+        
+        <h2>contacts</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Chai</td>
+                    <td>134 Dzikunze</td>
+                    <td>0784526274</td>
+                    <td>chaijohn@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Kache</td>
+                    <td>408 Dzitsoni</td>
+                    <td>07683546723</td>
+                    <td>Janekache@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Brian Deche</td>
+                    <td>467 Dzitsoni</td>
+                    <td>07567384678</td>
+                    <td>briandeche@yahoo.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Oloo</td>
+                    <td>45 Kilifi</td>
+                    <td>07683546723</td>
+                    <td>Janeoloo@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Dama Kahaso</td>
+                    <td>567 Katikirieni</td>
+                    <td>0776363554</td>
+                    <td>damakahaso@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Registration</h2>
+        <form action="#" method="post">
+            <fieldset>
+                <legend> Personal Information</legend>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="Password" name="Password" placeholder="Your password" required minlength="8">
+                </div>
+                <div>
+                    <label for="birth date">Date of Birth:</label>
+                    <input type="date" id="birth date" name="birth date">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferences</legend>
+                <div>
+                    <label for="Occupation">Occupation:</label>
+                    <select id="Occupation" name="Occupation">
+                        <option value="">select an option </option>
+                        <option value="student">Student</option>
+                        <option value="employee">Employee</option>
+                        <option value="other"> Other</option>
+                 </select>
+                </div>
+                <div>
+                    <p>Gender:</p>
+                    <input type="radion" id="male" name="gender" value="male">
+                    <label for="male"> Male</label><br>
+                    <input type="radion" id="female" name="gender" value="female">
+                    <label for="femal"> Femal</label><br>
+                    <input type="radion" id="other_gender" name="gender" value="other">
+                    <label for="other_gender"> Other</label><br>
+                </div>
+                <div>
+                    <p>Intrests:</p>
+                    <input type="checkbox" id="coding" name="Intrests" value="coding">
+                    <label for="coding">coding</label><br>
+                    <input type="checkbox" id="reading" name="Intrests" value="reading">
+                    <label for="reading">coding</label><br>
+                    <input type="checkbox" id="travelling" name="Intrests" value="travelling">
+                    <label for="travelling">Travelling</label><br>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
